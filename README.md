@@ -3,7 +3,7 @@
 ## Introduction
 The [OpenSSL](https://github.com/openssl/openssl) consists of three layers -- libcrypto, libssl and cli application. The first one can be considered as a core product of OpenSSL project, as it implements cryptographic functionality. Libcrypto itself is divided into many parts, each represented by API. One of such interface is called Engine API, which can be seen as compatibility layer between external device or library and OpenSSL. Engine structure was not documented when I was writing this code. However as a by-product a documentation of OpenSSL architecture and Engine API was created. 
 
-Right now the documentation exists in Czech language only, but I am currently working on translation.
+Right now the [documentation](https://github.com/jnpsk/e_cng/raw/master/Podpora_CryptoAPI_Next_Generation_v_OpenSSL.pdf) exists in Czech language only, but I am currently working on translation.
 
 ## Project structure
 ```
